@@ -1,0 +1,35 @@
+O Git é um sistema de controle de versão distribuído amplamente utilizado na indústria de desenvolvimento de software. Ele permite que equipes de desenvolvimento controlem as alterações feitas em seu código-fonte ao longo do tempo, facilitando a colaboração, o rastreamento de alterações, a resolução de conflitos e a criação de diferentes versões do software. Diferentemente de sistemas de controle de versão centralizados, o Git armazena cópias completas do repositório em cada máquina, o que proporciona vantagens como a capacidade de trabalhar offline e uma maior redundância de dados.
+
+git init
+Esse comando cria um novo repositório Git na pasta atual, permitindo que você comece a rastrear as alterações nos arquivos dentro dessa pasta.
+
+No Windows, o comando dir é usado para listar o conteúdo (arquivos e pastas) de um diretório específico.
+
+Quando você executa o comando git clone <URL_do_repositório>, o Git faz o download de todos os arquivos, histórico de commits e informações do repositório remoto e cria uma cópia idêntica desse repositório em sua máquina local. Isso permite que você comece a trabalhar com o código do repositório e contribua para ele sem afetar diretamente o repositório remoto.
+
+Quando você tenta fazer um push para o GitHub e o seu commit não representa o estado mais atual do repositório remoto, o Git geralmente não permitirá o push diretamente. Em vez disso, ele informará que o repositório remoto tem alterações não refletidas em seu repositório local. Nesse caso, você precisará primeiro atualizar seu repositório local com as mudanças mais recentes do repositório remoto usando o comando git pull, resolver quaisquer conflitos se eles existirem e, em seguida, fazer o commit das suas alterações e fazer o push novamente.
+
+O comando git init faz o seguinte:
+
+Inicializa um repositório Git na pasta em questão.
+
+Um sistema distribuído é composto por um conjunto de componentes ou nós de processamento interconectados que colaboram e coordenam suas atividades para alcançar um objetivo comum. Esses componentes podem estar localizados em diferentes máquinas, locais geográficos ou até mesmo em diferentes partes de uma rede. O objetivo é permitir o compartilhamento de recursos, aumentar a escalabilidade e a redundância, e possibilitar a execução de tarefas complexas que exigem a colaboração entre diferentes partes do sistema.
+
+Se você desejar corrigir os commits existentes para que tenham as informações corretas, você pode usar o comando git commit --amend. Além disso, você também pode configurar as informações de identidade globalmente usando os comandos git config --global user.name "Seu Nome" e git config --global user.email "seu@email.com". Isso ajudará a evitar discrepâncias futuras.
+
+Ambiente de Desenvolvimento:
+
+O ambiente de desenvolvimento refere-se ao local onde os desenvolvedores escrevem, testam e depuram o código.
+Pode ser o computador local de um desenvolvedor ou uma máquina dedicada para esse fim.
+Geralmente, é onde ocorre a criação e edição de código-fonte, bem como a execução de testes e a depuração de problemas.
+É onde as versões iniciais do código são criadas e refinadas antes de serem compartilhadas com outras pessoas ou implantadas em um ambiente de produção.
+Servidor:
+
+O servidor é uma máquina ou sistema remoto que fornece serviços ou recursos para os usuários.
+Pode hospedar sites, aplicativos, bancos de dados e outros serviços.
+No contexto de desenvolvimento web, o servidor muitas vezes hospeda o aplicativo em um ambiente de produção, tornando-o acessível aos usuários finais.
+Os desenvolvedores também podem ter servidores de teste ou pré-produção para verificar como o aplicativo se comporta em um ambiente próximo ao de produção.
+Portanto, a diferença é a seguinte:
+
+Ambiente de Desenvolvimento: Geralmente é local, onde os desenvolvedores escrevem e testam o código.
+Servidor: Geralmente é remoto e hospeda o aplicativo ou serviço para os usuários finais.

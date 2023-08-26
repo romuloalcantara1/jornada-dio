@@ -1,2 +1,5 @@
-# jornada-dio
-Jornada de conhecimentos aprendidos na plataforma DIO
+# Jornada Dio :rocket:
+### Jornada de conhecimentos aprendidos na plataforma DIO.
+
+- Pensamento Computacional 
+- Git e GitHub
